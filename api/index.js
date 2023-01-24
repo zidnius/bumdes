@@ -10,10 +10,10 @@ async function run() {
 
     // --- Koneksi ke database ---
     const conn = await mariadb.createConnection({
-        host: "127.0.0.1",
-        user: "root",
-        password: "",
-        database: "bumdes",
+        host: "sql12.freemysqlhosting.net",
+        user: "sql12593019",
+        password: "f226symJtg",
+        database: "sql12593019",
         supportBigNumbers: true,
     });
 
