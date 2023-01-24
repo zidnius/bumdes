@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
 // --- Koneksi ke database ---
-const conn = await mariadb.createConnection({
+const conn = mariadb.createConnection({
     host: "sql12.freemysqlhosting.net",
     user: "sql12593019",
     password: "f226symJtg",
